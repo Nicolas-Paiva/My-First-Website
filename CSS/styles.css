@@ -101,13 +101,8 @@ hr {
 
 /* Contact Me Container */
 
-.contactsContainer {
-  background-color: #c1f4c5;
-}
-
-.contactMeText {
-  width: 40%;
-  margin: 20px auto 30px auto;
+.ContactMe {
+  margin: 30px auto 50px auto;
 }
 
 .btn {
@@ -135,6 +130,23 @@ hr {
   top: 1px;
 }
 
+/* Footer */
+
+.contactsContainer {
+  height: 50px;
+  background-color: #c1f4c5;
+}
+
+.contactMeText {
+  width: 40%;
+  margin: 20px auto 30px auto;
+}
+
 .bottomSection {
+  padding-top: 20px;
+}
+
+.footerLink {
   text-decoration: none;
+  color: #11999e;
 }
