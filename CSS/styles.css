@@ -1,0 +1,140 @@
+/* Body Properties */
+
+body {
+  text-align: center;
+  margin: 0;
+  color: #1d1f1e;
+}
+
+h1 {
+  font-family: "Redressed", cursive;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  /* line-height: 1; */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: rgb(126, 113, 113);
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(126, 113, 113);
+  line-height: 2;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+hr {
+  border: dotted 6px;
+  color: #badada;
+  border-bottom: none;
+  width: 5%;
+}
+
+/* Presentation Container */
+
+.presentationContainer {
+  position: relative;
+  height: 100vh;
+  padding: 30px;
+  background-color: #c1f4c5;
+}
+
+.profilePicture {
+  margin: 75px auto 25px auto;
+}
+
+.presentationText {
+  margin-top: 15px;
+}
+
+.profileText {
+  width: 40%;
+  margin: auto;
+}
+
+.webicon {
+  width: 25%;
+  margin: 30px auto 100px auto;
+}
+
+.hr {
+  margin: 70px auto;
+}
+
+/* Skill Container */
+
+.mySkills {
+  margin-top: 100px;
+}
+
+.skillRow {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.skillImage {
+  width: 25%; /* 25% based on the parent*/
+  /* float: left; */
+}
+
+.htmlSkillText {
+  width: 60%;
+  margin: auto;
+}
+
+.cssSkillText {
+  width: 80%;
+  margin: auto;
+}
+
+.hrBottom {
+  margin-bottom: 70px;
+}
+
+/* Contact Me Container */
+
+.contactsContainer {
+  background-color: #c1f4c5;
+}
+
+.contactMeText {
+  width: 40%;
+  margin: 20px auto 30px auto;
+}
+
+.btn {
+  margin: auto auto 30px auto;
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #11cdd4 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 28px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #11cdd4 5%, #599bb3 100%);
+  background-color: #11cdd4;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.bottomSection {
+  text-decoration: none;
+}
