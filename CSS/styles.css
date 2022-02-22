@@ -149,4 +149,10 @@ hr {
 .footerLink {
   text-decoration: none;
   color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: auto 20px;
+}
+
+.footerLink:hover {
+  color: #81cece;
 }
